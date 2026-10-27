@@ -19,7 +19,7 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
 
 - `build.py`: authored content, page templates and project descriptions. Running `python3 build.py` regenerates the HTML pages at the repository root.
 - `index.html`: generated homepage with the project gallery and Unity games.
-- `intracortical-decoding.html`, `auditory-cortex.html`, `xr-teleoperation.html`, `gestura.html`, `electronic-stethoscope.html`, `patient-monitoring.html`: generated project detail pages.
+- `intracortical-decoding.html`, `auditory-cortex.html`, `xr-teleoperation.html`, `gestura.html`, `impedimetric-respiration.html`, `patient-monitoring.html`: generated project detail pages.
 - `style.css`: colours, typography, spacing and responsive layouts.
 - `app.js`: project filters, figure expansion and video playback behaviour.
 - `assets/`: project images, figures and favicon.
@@ -36,3 +36,6 @@ For a local preview, run `python3 -m http.server 8000` from this directory and o
 The full course reports, CV, raw neural recordings and imported project source archives are not included. Figures retain their original source captions. Research results retain the methodological qualifications shown on the site. The XR project uses your physical-robot configuration clip; its detail page also credits an upstream Unitree simulation screenshot. Patient-monitoring views use demonstration accounts and simulated readings.
 
 This is a static export. It does not rely on ChatGPT Sites to run. A GitHub Pages address depends on the GitHub account, repository, Pages settings and continued availability of GitHub's service; no hosting service guarantees permanent availability.
+
+
+The impedimetric respiration project uses a supplied laboratory schematic, a photograph of my completed stripboard and a simulator output trace. The final test used a breathing simulator set to 30 breaths per minute. The previous electronic-stethoscope URL redirects to the replacement project.
